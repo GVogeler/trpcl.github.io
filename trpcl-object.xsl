@@ -15,7 +15,7 @@
         <xsl:include href="/lib/3.0/gamsJS/1.x/gamsjs_wippets/widget_injection.xsl"/>
     -->
     
-    <xsl:include href="tpcl-static.xsl"/>
+    <xsl:include href="trpcl-static.xsl"/>
 
     <!--<xsl:output method="xml" doctype-system="about:legacy-compat" encoding="UTF-8" indent="no"/>-->
     
@@ -26,7 +26,7 @@
         <xsl:if test="$mode = 'view:editionobject' or $mode=''">
             <section class="row">                                    
                 
-                        <article class="col-md-6">  
+                        <article class="col-md-6" id="edition:textpane">  
                             <div class="card">
                                 <div class="card-body">
                                     <xsl:apply-templates select="//t:body"/>
@@ -34,7 +34,7 @@
                             </div>
                         </article>
                 
-                    <article class="col-md-6" style="margin-top:30px;">
+                    <article class="col-md-6" style="margin-top:30px;" id="edition:imagepane">
                         <div class="sticky-top" style="top:67px; z-index:100;">
                             <div id="vwr-content" class="toc"
                                 style="background-color: #E8E8E8; height:700px;" >
@@ -45,9 +45,9 @@
                             </div>
                         </div>
                         
-                        <script type="text/javascript" src="{$gamsAssetsRootPath}/lib/editionviewer/openseadragon.js">//</script>
-                        <script type="text/javascript" src="{$gamsAssetsRootPath}/lib/editionviewer/bs-scroll-the-edition.js">//</script>
-                        <script type="text/javascript" src="{$gamsAssetsRootPath}/lib/editionviewer/gamsEdition.js">//</script>
+                        <script type="text/javascript" src="/editionviewer/openseadragon.js">//</script>
+                        <script type="text/javascript" src="/editionviewer/bs-scroll-the-edition.js">//</script>
+                        <script type="text/javascript" src="/editionviewer/gamsEdition.js">//</script>
                         <script type="text/javascript">
                             gamsOsd({
                             id: "vwr-content",
@@ -71,7 +71,7 @@
        <xsl:if test="$mode='view:otherobject'">
            <section class="row">                                    
                
-               <article class="col-md-6">
+               <article class="col-md-6" id="other:descriptionpane">
                    <div class="card">
                        <div class="card-body">
                            <h3 class="objekt">Objekbeschreibung</h3>
@@ -126,14 +126,13 @@
                    </div>
                </article>
                
-               <article class="col-md-6" style="margin-top:30px;">
+               <article class="col-md-6" style="margin-top:30px;" id="other:imagepane">
                    <div class="sticky-top" style="top:67px; z-index:100;">
                        <div id="vwr-content" class="toc"
                            style="background-color: #E8E8E8; height:700px;" >
                            <xsl:text> </xsl:text>    
                        </div>
                    </div>
-                   <!--Diese Pfadreferenzen sind okay weil sie aus dem Image ausgeliefert werden! Keine lokalen Ordner/Files nötig.-->
                    <script type="text/javascript" src="/osdviewer/openseadragon.js"><xsl:text> </xsl:text></script>
                    <script type="text/javascript" src="/osdviewer/gamsOsd.js"><xsl:text> </xsl:text></script>
                    <script type="text/javascript">
@@ -163,7 +162,7 @@
     
     </xsl:template>
     
-    <!--########### für mode=queryform relevant ###########-->
+    <!--########### für mode=queryform ###########-->
     <xsl:template name="form">
         <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
             <desc>
@@ -184,7 +183,7 @@
             </depends>
             <return>form</return>
         </doc>
-        <script type="application/javascript" src="/gamsdev/vogeler/fulltext/search.js"><xsl:text> </xsl:text></script>
+        <script type="application/javascript" src="js/search.js"><xsl:text> </xsl:text></script>
         <form action="{document-uri(/)}" id="suche" method="get">
             <!-- Text Feld -->
             <div class="form-group">
