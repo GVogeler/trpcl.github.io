@@ -49,11 +49,11 @@
 			<desc>tpcl</desc>
 		</doc>
 		<xsl:variable name="projectAbbr">tpcl</xsl:variable>
-		<xsl:variable name="projectRootPath" select="concat('/', $projectAbbr)"/>
+		<xsl:variable name="projectRootPath" select="."/>
 		<doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
 			<desc>C:/Users/Cookie/gams-local/gams-data/apache/tpcl</desc>
 		</doc>
-		<xsl:variable name="gamsAssetsRootPath" select="'/assets'"/>
+		<xsl:variable name="gamsAssetsRootPath" select="'./lib'"/>
 		<xsl:variable name="projectTitle">
 			<xsl:text>Korespondenca Jožefine in Fidelija Terpinc (1823-1875)</xsl:text>
 		</xsl:variable>
