@@ -53,7 +53,7 @@
 		<doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
 			<desc>C:/Users/Cookie/gams-local/gams-data/apache/trpcl</desc>
 		</doc>
-		<xsl:variable name="gamsAssetsRootPath" select="'./lib'"/>
+		<xsl:variable name="gamsAssetsRootPath" select="'.'"/>
 		<xsl:variable name="projectTitle">
 			<xsl:text>Korespondenca Jožefine in Fidelija Terpinc (1823-1875)</xsl:text>
 		</xsl:variable>
