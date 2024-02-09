@@ -49,11 +49,11 @@
 			<desc>trpcl</desc>
 		</doc>
 		<xsl:variable name="projectAbbr">trpcl</xsl:variable>
-	<xsl:variable name="projectRootPath" select="'https://raw.githubusercontent.com/GVogeler/trpcl/test-git2gams/'"/>
+	<xsl:variable name="projectRootPath" select="'https://raw.githubusercontent.com/GVogeler/trpcl/test-git2gams'"/>
 		<doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
 			<desc>C:/Users/Cookie/gams-local/gams-data/apache/trpcl</desc>
 		</doc>
-	<xsl:variable name="gamsAssetsRootPath" select="'https://raw.githubusercontent.com/GVogeler/trpcl/test-git2gams/assets'"/>
+	<xsl:variable name="gamsAssetsRootPath" select="'http://glossa.uni-graz.at/assets'"/>
 		<xsl:variable name="projectTitle">
 			<xsl:text>Korespondenca Jožefine in Fidelija Terpinc (1823-1875)</xsl:text>
 		</xsl:variable>
