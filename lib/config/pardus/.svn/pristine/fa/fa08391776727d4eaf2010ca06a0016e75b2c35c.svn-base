@@ -1,0 +1,46 @@
+var ZIMT = ZIMT || {};
+ZIMT.DATA = ZIMT.DATA || {};
+
+ZIMT.DATA.DefaultValues = ZIMT.DATA.DefaultValues || {};
+ZIMT.DATA.DefaultValues.MLT = ZIMT.DATA.DefaultValues.MLT || {};
+ZIMT.DATA.DefaultValues.MLT.Place = ZIMT.DATA.DefaultValues.MLT.Place || {};
+
+// === Debug ===
+//
+// * Zeigt an ob Übersetzungen für Facettenausprägungen vorhanden sind.
+ZIMT.DATA.DefaultValues.Debug = false;
+
+// === Query Default Values ===
+ZIMT.DATA.DefaultValues.qProtocol = "http://";
+ZIMT.DATA.DefaultValues.qHost = "gams.uni-graz.at/";
+ZIMT.DATA.DefaultValues.qCore = "pardus/search/";
+ZIMT.DATA.DefaultValues.qRqh =   "select";
+ZIMT.DATA.DefaultValues.qMltRqh =   "mlt2";
+
+
+ZIMT.DATA.DefaultValues.qFormat = "&wt=json&indent=true";  // Result Format
+ZIMT.DATA.DefaultValues.qAlways = "&facet=true";           // Facet Always true
+ZIMT.DATA.DefaultValues.qDefaultQuery = "q=*:*";           // Default Query  no "&" for the first parameter
+
+// === Default Language ===
+ZIMT.DATA.DefaultValues.strDefaultLang = "de";
+
+// === Schrittweite für paginierung ===
+ZIMT.DATA.DefaultValues.iPagStepSize = 10;
+
+// === MLT Parameter ===
+ZIMT.DATA.DefaultValues.MLT.Place.fLowerBound = 0.85; // 0.85 .. -15%
+
+// ====== Intern ======
+// - arrFildFacets: wird derzeit nur in sync2amodl() benutzt
+ZIMT.DATA.DefaultValues.arrFildFacets = ["dc_contributor", "dc_publisher", "edm_place", "dc_language", "dc_type", "dct_medium", "dct_temporal", "edm_agent", "dct_isPartOf"];
+
+// 
+ZIMT.DATA.DefaultValues.arrSearchAbles = ["dc_contributor", "dc_publisher", "dc_type", "dct_temporal", "edm_place", "dct_isPartOf", "dct_created_sort"];
+// dct_created .. ungeeignet -> dct_created_sort
+// ==========================
+// dc_language .. multivalued
+// dct_medium  .. multivalued
+// edm_agent   .. multivalued
+
+ZIMT.DATA.DefaultValues.maxReqLength=8190;

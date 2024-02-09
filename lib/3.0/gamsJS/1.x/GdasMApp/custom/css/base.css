@@ -1,0 +1,67 @@
+
+.gams-geo--app .leaflet-map-container {
+  height: 100vh;
+}
+
+.gams-geo--app {
+  max-width:99vw;
+}
+
+.gams-geo--geo-control {
+  font-family: 'Teko', sans-serif;
+  font-size: 1.125em;
+  min-height: 98vh;
+  /* padding: 2em; */
+}
+
+.gams-geo--app .col-md-3 {
+  padding: 0;
+}
+
+.gams-geo--app .col-md-9 {
+  padding: 0;
+}
+
+/*
+* Styles for the mobile only top bar.
+*/
+.overlay-menu--icon-bar {
+  margin-top: .5em;
+}
+
+.overlay-menu--icon-bar a, .overlay-menu--icon-bar button {
+  margin-right: 1em; 
+  border-radius: 15em;
+}
+
+.gams-geo--geo-control .bs-tabs--content .form-control {
+  border-radius: 0;
+}
+
+@media (min-width: 1000px) { 
+  .gams-geo--geo-control {
+    /* border-right: 1px solid lightgrey; */
+  }
+
+  .gams-geo--geo-control .bs-tabs--header {
+    /* margin:0; */
+    padding: 0em .5em;
+  }
+
+  .gams-geo--geo-control h3 {
+    padding-left: 1em;
+  }
+
+  .gams-geo--geo-control a.nav-link {
+    border-radius:0;
+    /* color:black; */
+    /* border-color: grey; */
+  }
+
+  .gams-geo--geo-control .bs-tabs--content {
+    /* background:red; */
+    /* padding: 5em; */
+    padding: .5em 3em;
+  }
+
+}

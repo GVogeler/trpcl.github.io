@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgets>
+    <widget id="GAMS_WIDGET_GDASMAPP">
+        <dependencies>
+            <link href="/lib/3.0/gamsJS/1.x/GdasMApp/css/main.0cecb038.chunk.css" rel="stylesheet"> </link>
+            <script src="/lib/3.0/gamsJS/1.x/GdasMApp/js/2.6d9ddb50.chunk.js" type="text/javascript"> </script>
+            <script src="/lib/3.0/gamsJS/1.x/GdasMApp/js/main.2a470279.chunk.js" type="text/javascript"> </script>
+            <script src="/lib/3.0/gamsJS/1.x/GdasMApp/js/runtime-main.74a9ef47.js" type="text/javascript"> </script>
+        </dependencies>
+    </widget>
+    <widget id="GAMS_WIDGET_TRIPLEFORM">
+        <dependencies>
+            <link href="/lib/3.0/gamsJS/1.x/TripleForm/css/tripleForm.css" rel="stylesheet"> </link>
+            <script src="/lib/3.0/gamsJS/1.x/TripleForm/js/2.e65736ae.chunk.js" type="text/javascript"> </script>
+            <script src="/lib/3.0/gamsJS/1.x/TripleForm/js/main.e181e5a1.chunk.js" type="text/javascript"> </script>
+            <script src="/lib/3.0/gamsJS/1.x/TripleForm/js/runtime-main.74a9ef47.js" type="text/javascript"> </script>
+        </dependencies>
+    </widget>
+    <widget id="GAMS_WIDGET_CALENDAR">
+        <dependencies>
+            <link href="/lib/3.0/gamsJS/1.x/ZimCalendar/css/2.dc08fe7a.chunk.css" rel="stylesheet"> </link>
+            <script src="/lib/3.0/gamsJS/1.x/ZimCalendar/js/2.2d78af04.chunk.js" type="text/javascript"> </script>
+            <script src="/lib/3.0/gamsJS/1.x/ZimCalendar/js/main.1b99e861.chunk.js" type="text/javascript"> </script>
+            <script src="/lib/3.0/gamsJS/1.x/ZimCalendar/js/runtime-main.74a9ef47.js" type="text/javascript"> </script>
+        </dependencies>
+    </widget>
+</widgets>

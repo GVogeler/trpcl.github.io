@@ -1,0 +1,39 @@
+readme jquery.matchHeight.js
+
+Plugin:
+
+	Github:
+	https://github.com/liabru/jquery-match-height 
+	Demo:
+	http://brm.io/jquery-match-height-demo
+	
+Verwendung für uns:
+	
+		<script src="http://gams.uni-graz.at/templates/js/matchHeight/jquery.matchHeight.js">//</script>
+		und
+		<script src="http://gams.uni-graz.at/templates/js/matchHeight/matchHeight.js">//</script>
+		einbinden!
+		
+		matchHeight.js beinhaltet diesen Code:
+		
+			if ($(window).width() >= 992) {
+			    $(function () {
+			        $('.equal').matchHeight({
+			            byRow: false
+			        });
+			    });
+			};
+			
+			Wenn also die Screen-Göße 992px überschreitet, wird das Script erst ausgeführt. 
+			Alle Elemente mit der Klasse "equal" werden gleich hoch, wobei das höchste Element als Referenz dient.
+			Die Option "byRow" muss auf false gesetzt sein um einen Bug der zwischen Bootstrap und diesem Plugin entsteht zu umgehen.
+			
+			Falls mehrere Elemente untereinander mit einem einzigen Element daneben equalized werden sollen (wie auf der Gams-Startseite)
+			muss zusätzlich im Projekt-CSS 
+			@media (min-width: 992px){
+			    .bottom-image{
+			        margin-bottom:0;
+			    }
+			}
+			hinzugefügt werden, und dem untersten Element die entsprechende Klasse zugewiesen werden. 
+			Damit wird verhindert, dass die 30px margin beim equalizen mitberechnet werden.

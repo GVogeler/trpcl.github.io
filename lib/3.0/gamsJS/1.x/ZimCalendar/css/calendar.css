@@ -1,0 +1,69 @@
+.popup-component--popup-main {
+  z-index: 101;
+  background-color: white;
+  position: fixed;
+  top: 25vh;
+  left: 25vw;
+  width: 50vw;
+  max-width: 50vw;
+  padding: 1em;
+  border-radius: .25em;
+  box-shadow: 1px 1px 2px 1px grey;
+  border-left: 5px solid lightgrey;
+}
+
+.popup-component--popup-main h2 {
+  border-bottom: 5px solid whitesmoke;
+}
+
+.popup-component--popup-backdrop {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 0.5;
+}
+
+
+.popup-component--popup-close {
+  position: absolute;
+  right: 3.5%;
+  top: 10%;
+  width: 2.5%;
+  height: 10px;
+  opacity: 0.3;
+}
+.popup-component--popup-close:hover {
+  opacity: 1;
+  cursor:pointer;
+}
+.popup-component--popup-close:before, .popup-component--popup-close:after {
+  position: absolute;
+  left: 15%;
+  content: ' ';
+  height: 23px;
+  width: 2px;
+  background-color: #333;
+}
+.popup-component--popup-close:before {
+  transform: rotate(45deg);
+}
+.popup-component--popup-close:after {
+  transform: rotate(-45deg);
+}
+
+@media (min-width: 600px) {
+
+  .popup-component--popup-main {
+    padding: 5em;
+    border-left: 10px solid lightgrey;
+  }
+
+  .popup-component--popup-main h2 {
+    border-bottom: 20px solid whitesmoke;
+  }
+
+}
