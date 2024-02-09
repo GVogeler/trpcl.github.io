@@ -11,7 +11,7 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:oai="http://www.openarchives.org/OAI/2.0/" exclude-result-prefixes="#all">
     
-    <xsl:include href="tpcl-static.xsl"/>
+    <xsl:include href="trpcl-static.xsl"/>
     
     
     <!--///////////////////////////////////////////////////////////////////-->
