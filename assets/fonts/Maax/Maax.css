@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Maax Black';
+  src: url('Maax - Black-205TF.woff2') format('woff2'),
+  url('Maax - Black-205TF.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Maax Bold Italic';
+  src: url('Maax - Bold+Italic-205TF.woff2') format('woff2'),
+  url('Maax - Bold+Italic-205TF.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Maax Bold';
+  src: url('Maax - Bold-205TF.woff2') format('woff2'),
+  url('Maax - Bold-205TF.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Maax Italic';
+  src: url('Maax - Italic-205TF.woff2') format('woff2'),
+  url('Maax - Italic-205TF.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Maax Light';
+  src: url('Maax - Light-205TF.woff2') format('woff2'),
+  url('Maax - Light-205TF.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Maax Medium Italic';
+  src: url('Maax - Medium+Italic-205TF.woff2') format('woff2'),
+  url('Maax - Medium+Italic-205TF.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Maax Medium';
+  src: url('Maax - Medium-205TF.woff2') format('woff2'),
+  url('Maax - Medium-205TF.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Maax Regular';
+  src: url('Maax - Regular-205TF.woff2') format('woff2'),
+  url('Maax - Regular-205TF.ttf') format('truetype');
+}

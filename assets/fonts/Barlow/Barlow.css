@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow.eot'); /* IE9 Compat Modes */
+  src: url('Barlow.woff2') format('woff2'), 
+       url('Barlow.woff') format('woff'), /* Modern Browsers */
+       url('Barlow.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Barlow.svg') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}

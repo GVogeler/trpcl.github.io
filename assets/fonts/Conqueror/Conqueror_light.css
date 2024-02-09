@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ConquerorLight';
+  src: url('Conqueror_light.eot'); /* IE9 Compat Modes */
+  src: 
+       url('Conqueror_light.woff') format('woff'), /* Modern Browsers */
+       url('Conqueror_light.woff2') format('woff2'), 
+       url('Conqueror_light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Conqueror_light.svg') format('svg'); /* Legacy iOS */
+       
+ 
+  
+}

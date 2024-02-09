@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Neuton';
+  src: url('Neuton.eot'); /* IE9 Compat Modes */
+  src: url('Neuton.woff2') format('woff2'), 
+       url('Neuton.woff') format('woff'), /* Modern Browsers */
+       url('Neuton.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Neuton.svg') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}

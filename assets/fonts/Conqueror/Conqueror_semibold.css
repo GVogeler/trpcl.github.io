@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ConquerorSemiBold';
+  src: url('Conqueror_semibold.eot'); /* IE9 Compat Modes */
+  src: 
+       url('Conqueror_semibold.woff') format('woff'), /* Modern Browsers */
+       url('Conqueror_semibold.woff2') format('woff2'), 
+       url('Conqueror_semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Conqueror_semibold.svg') format('svg'); /* Legacy iOS */
+       
+ 
+  
+}

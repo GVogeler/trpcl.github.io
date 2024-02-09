@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'LeedsUniExt';
+  src: url('LeedsUni10-12-13.eot'); /* IE9 Compat Modes */
+  src: url('LeedsUni10-12-13.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('LeedsUni10-12-13.woff') format('woff'), /* Modern Browsers */
+       url('LeedsUni10-12-13.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('LeedsUni10-12-13.svg#1e29a7468634864ae2deee84be9d8671') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
