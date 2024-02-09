@@ -49,7 +49,7 @@
 			<desc>trpcl</desc>
 		</doc>
 		<xsl:variable name="projectAbbr">trpcl</xsl:variable>
-		<xsl:variable name="projectRootPath" select="."/>
+		<xsl:variable name="projectRootPath" select="'.'"/>
 		<doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
 			<desc>C:/Users/Cookie/gams-local/gams-data/apache/trpcl</desc>
 		</doc>
