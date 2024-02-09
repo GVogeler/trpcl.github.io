@@ -49,7 +49,7 @@
 			<desc>trpcl</desc>
 		</doc>
 		<xsl:variable name="projectAbbr">trpcl</xsl:variable>
-	<xsl:variable name="projectRootPath" select="'https://raw.githubusercontent.com/GVogeler/trpcl/test-git2gams'"/>
+	<xsl:variable name="projectRootPath" select="'https://gvogeler.github.io/trpcl.github.io'"/>
 		<doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
 			<desc>C:/Users/Cookie/gams-local/gams-data/apache/trpcl</desc>
 		</doc>
