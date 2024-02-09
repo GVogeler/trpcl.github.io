@@ -43,7 +43,7 @@
 						<div class="col align-self-center">
 						<div class="px-0 card-body text-center"> <!-- Added text-center class -->
 					<a href="/archive/objects/context:{$projectAbbr}/methods/sdef:Context/get?mode=list_letters">
-						<img src="/trpcl/img/pisma_thumbnail.jpg" class="img-fluid" />
+						<img src="{$projectRootPath}/img/pisma_thumbnail.jpg" class="img-fluid" />
 						<h3 class="card-title" style="color: white; background-color: #5B8CB2;">Pisma</h3>
 					</a>
 						</div>
@@ -53,7 +53,7 @@
 					<div class="col-6">
 						<div class="px-0 card-body py-4 text-center">
 					<a href="/archive/objects/context:{$projectAbbr}/methods/sdef:Context/get?mode=osebe">
-						<img src="/trpcl/img/druzina_cesko.jpg" class="img-fluid"/>
+						<img src="{$projectRootPath}/img/druzina_cesko.jpg" class="img-fluid"/>
 						<h3 class="card-title" style="color: white; background-color: #5B8CB2;">Korespodenti</h3>
 					</a>
 						</div>
@@ -61,7 +61,7 @@
 					<div class="col-6">					
 						<div class="px-0 card-body py-4 text-center">
 					<a href="/archive/objects/context:{$projectAbbr}/methods/sdef:Context/get?mode=kraji">
-						<img src="/trpcl/img/lokacija_thumbnail.jpg" class="img-fluid"/>
+						<img src="{$projectRootPath}/img/lokacija_thumbnail.jpg" class="img-fluid"/>
 						<h3 class="card-title" style="color: white; background-color: #5B8CB2;">Lokacije</h3>
 					</a>
     </div>
